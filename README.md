@@ -18,7 +18,7 @@ Atualmente, estamos dedicando tempo para aprofundar nossos conhecimentos em:
 - Docker
 - Frameworks para desenvolvimento web
 
-## 👯 Colaboração
+## 🤝 Colaboração
 Buscamos colaborar com desenvolvedores experientes para absorver conhecimento e aplicá-lo em nossa jornada. Nosso foco está em desenvolver sistemas inovadores que inspiram e facilitam a geração de novas ideias na comunidade de tecnologia.
 
 ## 📫 Contato
