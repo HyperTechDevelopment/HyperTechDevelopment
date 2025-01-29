@@ -25,9 +25,7 @@ Buscamos colaborar com desenvolvedores experientes para absorver conhecimento e 
 Para colaborações, perguntas ou mais informações sobre nossos projetos, sinta-se à vontade para abrir uma issue aqui no GitHub ou nos enviar um pull request.
 
 ## 🙋‍♂️ Integrantes:
-- Marcos Gabriel `Desenvolvedor Backend`
-- Paulo Almeida `Desenvolvedor Frontend`
-- Iury Costa `DevOps`
-
+- Marcos Gabriel `Desenvolvedor Full Stack`
+- 
 ## 📢 Fato Divertido
 Você sabia? A HyperTech começou focada em suporte técnico em informática antes de fazer a transição para o desenvolvimento de sistemas. Essa mudança reflete nosso desejo constante de crescimento e adaptação às novas demandas do mercado de tecnologia.
