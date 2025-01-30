@@ -1,7 +1,7 @@
 # Bem-vindos à HyperTech 👋
 
-## 🚀 Sobre Nós
-Sou o criador da **HyperTech**, uma microempresa movida pela minha paixão por tecnologia. Meu objetivo é desenvolver softwares que não apenas otimizem o trabalho dos meus clientes, mas também gerem resultados significativos para suas empresas. Comecei com foco em suporte técnico em informática e, ao longo do tempo, evoluí para o desenvolvimento de sistemas.
+## 🚀 Sobre Mim
+Me chamo Marcos Gabriel, sou o criador da **HyperTech**, uma microempresa movida pela minha paixão por tecnologia. Meu objetivo é desenvolver softwares que não apenas otimizem o trabalho dos meus clientes, mas também gerem resultados significativos para suas empresas. Comecei com foco em suporte técnico em informática e, ao longo do tempo, evoluí para o desenvolvimento de sistemas.
 
 ## 🔍 Interesses
 Tenho interesse em:
