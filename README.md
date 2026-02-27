@@ -47,7 +47,7 @@ Comecei com suporte técnico e evoluí para o desenvolvimento de sistemas, sempr
 			<p style="margin-top:6px"><a href="mailto:marcosdeveloper.ti@gmail.com"><img src="https://img.shields.io/badge/Contate%20-me-0072ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Contato"/></a></p>
 		</td>
 		<td width="40%" valign="top">
-			<h4 style="margin:0">�🔍 Interesses</h4>
+			<h4 style="margin:0">🔍 Interesses</h4>
 			<ul style="margin-top:6px">
 				<li>🤖 Inteligência Artificial</li>
 				<li>⚙️ Sistemas Automatizados</li>
@@ -56,7 +56,7 @@ Comecei com suporte técnico e evoluí para o desenvolvimento de sistemas, sempr
 				<li>🌐 Desenvolvimento Web</li>
 			</ul>
 
-   <h4 style="margin-top:10px; margin-bottom:0">🌱 Aprendizado Atual</h4>
+			<h4 style="margin-top:10px; margin-bottom:0">🌱 Aprendizado Atual</h4>
 			<ul style="margin-top:6px">
 				<li>🖧 Infraestrutura de redes</li>
 				<li>🚀 DevOps</li>
@@ -85,7 +85,7 @@ Comecei com suporte técnico e evoluí para o desenvolvimento de sistemas, sempr
 
 Principais tecnologias e ferramentas:
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
