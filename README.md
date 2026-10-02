@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ascii-name.svg" width="544" alt="Marcos Gabriel — Full Stack Developer" />
+  <img src="./assets/ascii-hero.svg" width="1128" alt="Marcos Gabriel — Full Stack Developer" />
 </p>
 
 <p align="center">
