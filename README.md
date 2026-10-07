@@ -70,8 +70,6 @@ No meu ecossistema principal, trabalho com **Python (Django, Flask, PyQt5)** no 
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&style=flat-square&color=2563eb" alt="Visualizações do perfil" />
-  <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&label=views&style=flat-square&color=334155" alt="Visualizações do perfil (variante cinza)" />
-  <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&label=profile&style=for-the-badge&color=1e3a8a" alt="Visualizações do perfil (azul escuro)" />
 </p>
 
 <p align="center">
@@ -79,13 +77,6 @@ No meu ecossistema principal, trabalho com **Python (Django, Flask, PyQt5)** no 
   <img src="https://img.shields.io/github/stars/HyperTechDevelopment?label=stars&style=flat-square&color=2563eb&labelColor=0e1a2e&logo=starship&logoColor=94a3b8" alt="Estrelas" />
   <img src="https://img.shields.io/github/last-commit/HyperTechDevelopment/HyperTechDevelopment?label=last%20commit&style=flat-square&color=334155&labelColor=0b1220&logo=git&logoColor=cbd5e1" alt="Último commit" />
   <img src="https://img.shields.io/badge/status-online-1d4ed8?style=flat-square&labelColor=0e1a2e&logo=statuspage&logoColor=94a3b8" alt="Status" />
-  <img src="https://img.shields.io/badge/stack-python%20%C2%B7%20django%20%C2%B7%20react-24344f?style=flat-square&labelColor=0b1220&logo=python&logoColor=cbd5e1" alt="Stack" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ascii-monitor-475569?style=flat-square&labelColor=101c33&logo=gnometerminal&logoColor=cbd5e1" alt="ascii monitor" />
-  <img src="https://img.shields.io/badge/live-atualizando-1e3a8a?style=flat-square&labelColor=0b1220&logo=webauthn&logoColor=94a3b8" alt="live atualizando" />
-  <img src="https://img.shields.io/badge/uptime-estável-334155?style=flat-square&labelColor=0e1a2e&logo=activitypub&logoColor=cbd5e1" alt="uptime estável" />
 </p>
 
 <p align="center">
