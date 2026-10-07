@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="#sobre">Sobre</a>
+  <a href="#sobre"><img src="./assets/nav-sobre.svg" height="34" alt="Sobre" /></a>
   &nbsp;·&nbsp;
-  <a href="#stack">Stack</a>
+  <a href="#stack"><img src="./assets/nav-stack.svg" height="34" alt="Stack" /></a>
   &nbsp;·&nbsp;
-  <a href="#projetos">Projetos</a>
+  <a href="#projetos"><img src="./assets/nav-projetos.svg" height="34" alt="Projetos" /></a>
   &nbsp;·&nbsp;
-  <a href="#contato">Contato</a>
+  <a href="#contato"><img src="./assets/nav-contato.svg" height="34" alt="Contato" /></a>
 </p>
 
 ---
@@ -57,7 +57,29 @@ Já desenvolvi e coloquei em produção sistemas corporativos de ponta a ponta (
 ---
 
 <p align="center">
+  <img src="./assets/profile-views.svg" width="900" alt="Profile views — painel ASCII animado em cinza e azul escuro" />
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&style=flat-square&color=2563eb" alt="Visualizações do perfil" />
-  <br />
+  <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&label=views&style=flat-square&color=334155" alt="Visualizações do perfil (variante cinza)" />
+  <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&label=profile&style=for-the-badge&color=1e3a8a" alt="Visualizações do perfil (azul escuro)" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/HyperTechDevelopment?label=followers&style=flat-square&color=64748b&labelColor=0e1a2e&logo=github&logoColor=cbd5e1" alt="Seguidores" />
+  <img src="https://img.shields.io/github/stars/HyperTechDevelopment?label=stars&style=flat-square&color=2563eb&labelColor=0e1a2e&logo=starship&logoColor=94a3b8" alt="Estrelas" />
+  <img src="https://img.shields.io/github/last-commit/HyperTechDevelopment/HyperTechDevelopment?label=last%20commit&style=flat-square&color=334155&labelColor=0b1220&logo=git&logoColor=cbd5e1" alt="Último commit" />
+  <img src="https://img.shields.io/badge/status-online-1d4ed8?style=flat-square&labelColor=0e1a2e&logo=statuspage&logoColor=94a3b8" alt="Status" />
+  <img src="https://img.shields.io/badge/stack-python%20%C2%B7%20django%20%C2%B7%20react-24344f?style=flat-square&labelColor=0b1220&logo=python&logoColor=cbd5e1" alt="Stack" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ascii-monitor-475569?style=flat-square&labelColor=101c33&logo=gnometerminal&logoColor=cbd5e1" alt="ascii monitor" />
+  <img src="https://img.shields.io/badge/live-atualizando-1e3a8a?style=flat-square&labelColor=0b1220&logo=webauthn&logoColor=94a3b8" alt="live atualizando" />
+  <img src="https://img.shields.io/badge/uptime-estável-334155?style=flat-square&labelColor=0e1a2e&logo=activitypub&logoColor=cbd5e1" alt="uptime estável" />
+</p>
+
+<p align="center">
   <sub>© 2026 Marcos Gabriel</sub>
 </p>

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="258" viewBox="0 0 900 258" role="img" aria-labelledby="t d">
+  <title id="t">Profile Views — painel ASCII animado</title>
+  <desc id="d">Painel em arte ASCII com barras de progresso, equalizador, varredura e indicadores em cinza e azul escuro.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="258">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#101c33"/>
+    </linearGradient>
+    <linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="45%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#475569"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-900 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panelClip"><rect x="6" y="6" width="888" height="246" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; white-space: pre; }
+    .head { font-size: 15px; fill: #94a3b8; }
+    .meta { font-size: 13px; fill: #64748b; }
+    .rule { font-size: 13px; fill: #24344f; }
+    .icon { font-size: 14px; font-weight: 700; }
+    .label { font-size: 13px; fill: #cbd5e1; letter-spacing: 1.1px; }
+    .bar  { font-size: 14px; letter-spacing: 1px; }
+    .live { font-size: 11px; fill: #64748b; letter-spacing: .6px; }
+    .cur  { fill: #cbd5e1; animation: curBlink 1.05s steps(1, end) infinite; }
+    .dot  { animation: dotPulse 1.6s ease-in-out infinite; }
+    .spin { animation: spin 1.2s steps(4, end) infinite; }
+    .scan { animation: scan 4.2s cubic-bezier(.4,0,.6,1) infinite; }
+    .eq   { transform-box: fill-box; transform-origin: center bottom; animation: eqPulse 1.05s ease-in-out infinite alternate; }
+    @keyframes curBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes dotPulse { 0%, 100% { opacity: .35; r: 3; } 50% { opacity: 1; r: 4.2; } }
+    @keyframes spin { 0% { opacity: 1; } 24% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(240px); } }
+    @keyframes eqPulse { from { transform: scaleY(.28); } to { transform: scaleY(1); } }
+    @media (prefers-reduced-motion: reduce) {
+      .cur, .dot, .spin, .scan, .eq { animation: none; }
+      .bar { fill: #94a3b8 !important; }
+      .scan { opacity: 0; }
+    }
+  </style>
+  <rect x="6" y="6" width="888" height="246" rx="16" fill="url(#panel)" stroke="url(#edge)" stroke-width="1.6"/>
+  <g clip-path="url(#panelClip)">
+    <rect class="scan" x="6" y="0" width="888" height="46" fill="url(#scan)"/>
+  </g>
+  <text class="mono head" x="30.0" y="42" xml:space="preserve">&gt; profile_views --live</text>
+  <rect class="cur" x="232.0" y="30" width="8" height="14" rx="1"/>
+  <text class="mono meta" x="870" y="42" text-anchor="end" xml:space="preserve">[ ascii · monitor ]</text>
+  <text class="mono rule" x="30" y="62" xml:space="preserve">───────────────────────────────────────────────────────────────────────────────────────────────────────────</text>
+  <g>
+    <g>
+      <rect x="27.0" y="84.0" width="198.0" height="104" rx="10" fill="#0e1a2e" stroke="#1e3a8a" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="icon" x="41.0" y="114.0" xml:space="preserve" fill="#94a3b8">[o]</text>
+      <text class="label" x="77.0" y="114.0" xml:space="preserve">VIEWS</text>
+      <text class="bar" x="41.0" y="146.0" xml:space="preserve" fill="url(#bar-0)">█████████████░░</text>
+      <text class="live" x="41.0" y="172.0" xml:space="preserve">live • atualizando</text>
+      <circle class="dot" cx="209.0" cy="102.0" r="3.4" fill="#2563eb" style="animation-delay:0.0s"/>
+      <linearGradient id="bar-0" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="27.0" y1="0" x2="147.0" y2="0">
+        <stop offset="0%" stop-color="#475569"/>
+        <stop offset="45%" stop-color="#cbd5e1"/>
+        <stop offset="70%" stop-color="#2563eb"/>
+        <stop offset="100%" stop-color="#475569"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-120 0" dur="3.6s" repeatCount="indefinite"/>
+      </linearGradient>
+    </g>
+    <g>
+      <rect x="243.0" y="84.0" width="198.0" height="104" rx="10" fill="#0e1a2e" stroke="#1e3a8a" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="icon" x="257.0" y="114.0" xml:space="preserve" fill="#94a3b8">[#]</text>
+      <text class="label" x="293.0" y="114.0" xml:space="preserve">REPOS</text>
+      <text class="bar" x="257.0" y="146.0" xml:space="preserve" fill="url(#bar-1)">██████████░░░░░</text>
+      <text class="live" x="257.0" y="172.0" xml:space="preserve">live • atualizando</text>
+      <circle class="dot" cx="425.0" cy="102.0" r="3.4" fill="#1d4ed8" style="animation-delay:0.35s"/>
+      <linearGradient id="bar-1" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="243.0" y1="0" x2="363.0" y2="0">
+        <stop offset="0%" stop-color="#475569"/>
+        <stop offset="45%" stop-color="#cbd5e1"/>
+        <stop offset="70%" stop-color="#1d4ed8"/>
+        <stop offset="100%" stop-color="#475569"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-120 0" dur="3.6s" repeatCount="indefinite"/>
+      </linearGradient>
+    </g>
+    <g>
+      <rect x="459.0" y="84.0" width="198.0" height="104" rx="10" fill="#0e1a2e" stroke="#1e3a8a" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="icon" x="473.0" y="114.0" xml:space="preserve" fill="#94a3b8">[*]</text>
+      <text class="label" x="509.0" y="114.0" xml:space="preserve">STARS</text>
+      <text class="bar" x="473.0" y="146.0" xml:space="preserve" fill="url(#bar-2)">████████░░░░░░░</text>
+      <text class="live" x="473.0" y="172.0" xml:space="preserve">live • atualizando</text>
+      <circle class="dot" cx="641.0" cy="102.0" r="3.4" fill="#1e3a8a" style="animation-delay:0.7s"/>
+      <linearGradient id="bar-2" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="459.0" y1="0" x2="579.0" y2="0">
+        <stop offset="0%" stop-color="#475569"/>
+        <stop offset="45%" stop-color="#cbd5e1"/>
+        <stop offset="70%" stop-color="#1e3a8a"/>
+        <stop offset="100%" stop-color="#475569"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-120 0" dur="3.6s" repeatCount="indefinite"/>
+      </linearGradient>
+    </g>
+    <g>
+      <rect x="675.0" y="84.0" width="198.0" height="104" rx="10" fill="#0e1a2e" stroke="#1e3a8a" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="icon" x="689.0" y="114.0" xml:space="preserve" fill="#94a3b8">[@]</text>
+      <text class="label" x="725.0" y="114.0" xml:space="preserve">FOLLOWERS</text>
+      <text class="bar" x="689.0" y="146.0" xml:space="preserve" fill="url(#bar-3)">███████████░░░░</text>
+      <text class="live" x="689.0" y="172.0" xml:space="preserve">live • atualizando</text>
+      <circle class="dot" cx="857.0" cy="102.0" r="3.4" fill="#2563eb" style="animation-delay:1.05s"/>
+      <linearGradient id="bar-3" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="675.0" y1="0" x2="795.0" y2="0">
+        <stop offset="0%" stop-color="#475569"/>
+        <stop offset="45%" stop-color="#cbd5e1"/>
+        <stop offset="70%" stop-color="#2563eb"/>
+        <stop offset="100%" stop-color="#475569"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-120 0" dur="3.6s" repeatCount="indefinite"/>
+      </linearGradient>
+    </g>
+  </g>
+  <text class="mono meta" x="30" y="206" xml:space="preserve">stats ·</text>
+  <text class="mono spin" x="86" y="206" xml:space="preserve">|</text>
+  <text class="mono spin" x="86" y="206" xml:space="preserve" style="animation-delay:.3s">/</text>
+  <text class="mono spin" x="86" y="206" xml:space="preserve" style="animation-delay:.6s">-</text>
+  <text class="mono spin" x="86" y="206" xml:space="preserve" style="animation-delay:.9s">\</text>
+  <text class="mono meta" x="870" y="206" text-anchor="end" xml:space="preserve">&gt; github.com/HyperTechDevelopment</text>
+  <g>
+      <rect class="eq" x="30.0" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.0s"/>
+      <rect class="eq" x="48.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.13s"/>
+      <rect class="eq" x="66.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.26s"/>
+      <rect class="eq" x="85.2" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.39s"/>
+      <rect class="eq" x="103.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.52s"/>
+      <rect class="eq" x="122.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.65s"/>
+      <rect class="eq" x="140.4" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.78s"/>
+      <rect class="eq" x="158.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.91s"/>
+      <rect class="eq" x="177.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.04s"/>
+      <rect class="eq" x="195.6" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:1.17s"/>
+      <rect class="eq" x="214.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.3s"/>
+      <rect class="eq" x="232.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.43s"/>
+      <rect class="eq" x="250.8" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.0s"/>
+      <rect class="eq" x="269.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.13s"/>
+      <rect class="eq" x="287.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.26s"/>
+      <rect class="eq" x="306.0" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.39s"/>
+      <rect class="eq" x="324.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.52s"/>
+      <rect class="eq" x="342.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.65s"/>
+      <rect class="eq" x="361.2" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.78s"/>
+      <rect class="eq" x="379.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.91s"/>
+      <rect class="eq" x="398.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.04s"/>
+      <rect class="eq" x="416.4" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:1.17s"/>
+      <rect class="eq" x="434.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.3s"/>
+      <rect class="eq" x="453.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.43s"/>
+      <rect class="eq" x="471.6" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.0s"/>
+      <rect class="eq" x="490.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.13s"/>
+      <rect class="eq" x="508.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.26s"/>
+      <rect class="eq" x="526.8" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.39s"/>
+      <rect class="eq" x="545.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.52s"/>
+      <rect class="eq" x="563.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.65s"/>
+      <rect class="eq" x="582.0" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.78s"/>
+      <rect class="eq" x="600.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.91s"/>
+      <rect class="eq" x="618.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.04s"/>
+      <rect class="eq" x="637.2" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:1.17s"/>
+      <rect class="eq" x="655.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.3s"/>
+      <rect class="eq" x="674.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.43s"/>
+      <rect class="eq" x="692.4" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.0s"/>
+      <rect class="eq" x="710.8" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.13s"/>
+      <rect class="eq" x="729.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.26s"/>
+      <rect class="eq" x="747.6" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.39s"/>
+      <rect class="eq" x="766.0" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.52s"/>
+      <rect class="eq" x="784.4" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.65s"/>
+      <rect class="eq" x="802.8" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:0.78s"/>
+      <rect class="eq" x="821.2" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:0.91s"/>
+      <rect class="eq" x="839.6" y="214" width="6" height="22" rx="2" fill="#334155" style="animation-delay:1.04s"/>
+      <rect class="eq" x="858.0" y="214" width="6" height="22" rx="2" fill="#1d4ed8" style="animation-delay:1.17s"/>
+  </g>
+</svg>
