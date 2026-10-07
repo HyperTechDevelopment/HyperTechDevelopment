@@ -14,7 +14,9 @@
 
 ---
 
-<h2 id="sobre" align="center">👋 Sobre</h2>
+<h2 id="sobre" align="center">
+  <img src="./assets/section-sobre.svg" width="900" alt="Sobre — banner em arte ASCII" />
+</h2>
 
 **Oi, sou o Marcos Gabriel 👋**
 
@@ -35,7 +37,9 @@ Já desenvolvi e coloquei em produção sistemas corporativos de ponta a ponta (
 
 ---
 
-<h2 id="projetos" align="center">🚀 Projetos</h2>
+<h2 id="projetos" align="center">
+  <img src="./assets/section-projetos.svg" width="900" alt="Projetos — banner em arte ASCII" />
+</h2>
 
 | Projeto | O que faz | Stack |
 | :-- | :-- | :-- |
@@ -46,7 +50,13 @@ Já desenvolvi e coloquei em produção sistemas corporativos de ponta a ponta (
 
 ---
 
-<h2 id="contato" align="center">📫 Contato</h2>
+<h2 id="contato" align="center">
+  <img src="./assets/section-contato.svg" width="900" alt="Contato — banner em arte ASCII" />
+</h2>
+
+<p align="center">
+  <img src="./assets/contact-card.svg" width="900" alt="Cartão de contato em arte ASCII: GitHub, LinkedIn, e-mail e status" />
+</p>
 
 <p align="center">
   <a href="https://github.com/HyperTechDevelopment"><img src="https://img.shields.io/badge/GitHub-HyperTechDevelopment-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>

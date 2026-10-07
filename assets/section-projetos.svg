@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="272" viewBox="0 0 900 272" role="img" aria-labelledby="t-projetos d-projetos">
+  <title id="t-projetos">Seção PROJETOS — banner em arte ASCII</title>
+  <desc id="d-projetos">Banner animado da seção PROJETOS, com a palavra desenhada em arte ASCII, painel, varredura e brilho em cinza e azul escuro.</desc>
+  <defs>
+    <linearGradient id="panel-projetos" x1="0" y1="0" x2="0" y2="272">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#101c33"/>
+    </linearGradient>
+    <linearGradient id="edge-projetos" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="45%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#475569"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-900 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sheen-projetos" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="49.88" y1="0" x2="850.12" y2="0">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="26%" stop-color="#cbd5e1"/>
+      <stop offset="54%" stop-color="#2563eb"/>
+      <stop offset="80%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#475569"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-800.24 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan-projetos" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-projetos"><rect x="6" y="6" width="888" height="260" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; white-space: pre; }
+    .art  {
+      font-family: ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace;
+      font-size: 19.8px;
+      white-space: pre;
+      fill: url(#sheen-projetos);
+      opacity: 0;
+      animation: rowIn .5s cubic-bezier(.2,.7,.3,1) both;
+    }
+    .head { font-size: 15px; fill: #94a3b8; }
+    .meta { font-size: 13px; fill: #64748b; letter-spacing: .5px; }
+    .rule { font-size: 13px; fill: #24344f; }
+    .cur  { fill: #cbd5e1; animation: curBlink 1.05s steps(1, end) infinite; }
+    .scan { animation: scan 4.6s cubic-bezier(.4,0,.6,1) infinite; }
+    @keyframes rowIn { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes curBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(250px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .art { fill: #94a3b8; animation: none; opacity: 1; }
+      .cur, .scan { animation: none; }
+      .scan { opacity: 0; }
+    }
+  </style>
+  <rect x="6" y="6" width="888" height="260" rx="16" fill="url(#panel-projetos)" stroke="url(#edge-projetos)" stroke-width="1.6"/>
+  <g clip-path="url(#clip-projetos)">
+    <rect class="scan" x="6" y="0" width="888" height="44" fill="url(#scan-projetos)"/>
+  </g>
+  <text class="mono head" x="32.0" y="44" xml:space="preserve">&gt; projetos --list</text>
+  <rect class="cur" x="189.0" y="32" width="8" height="14" rx="1"/>
+  <text class="mono meta" x="870.0" y="44" text-anchor="end" xml:space="preserve">[ open source · produção ]</text>
+  <text class="mono rule" x="30.0" y="64" xml:space="preserve">───────────────────────────────────────────────────────────────────────────────────────────────────────────</text>
+  <g text-anchor="middle">
+    <text class="art" x="450.0" y="96.0" xml:space="preserve" style="animation-delay:0.00s">██████╗ ██████╗  ██████╗      ██╗███████╗████████╗ ██████╗ ███████╗</text>
+    <text class="art" x="450.0" y="117.21" xml:space="preserve" style="animation-delay:0.06s">██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝╚══██╔══╝██╔═══██╗██╔════╝</text>
+    <text class="art" x="450.0" y="138.41" xml:space="preserve" style="animation-delay:0.12s">██████╔╝██████╔╝██║   ██║     ██║█████╗     ██║   ██║   ██║███████╗</text>
+    <text class="art" x="450.0" y="159.62" xml:space="preserve" style="animation-delay:0.18s">██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝     ██║   ██║   ██║╚════██║</text>
+    <text class="art" x="450.0" y="180.82" xml:space="preserve" style="animation-delay:0.24s">██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗   ██║   ╚██████╔╝███████║</text>
+    <text class="art" x="450.0" y="202.03" xml:space="preserve" style="animation-delay:0.30s">╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚══════╝</text>
+  </g>
+  <rect class="cur" x="446.0" y="215.03" width="8.96" height="3.6" rx="1.6"/>
+  <text class="mono rule" x="30.0" y="226" xml:space="preserve">───────────────────────────────────────────────────────────────────────────────────────────────────────────</text>
+  <text class="mono meta" x="30.0" y="250" xml:space="preserve"># ascii · banner</text>
+  <text class="mono meta" x="870.0" y="250" text-anchor="end" xml:space="preserve">github.com/HyperTechDevelopment</text>
+</svg>
