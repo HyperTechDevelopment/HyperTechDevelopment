@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t-contact-card d-contact-card">
+  <title id="t-contact-card">Contato — cartão em arte ASCII</title>
+  <desc id="d-contact-card">Cartão de contato em arte ASCII com GitHub, LinkedIn, e-mail e status, em cinza e azul escuro.</desc>
+  <defs>
+    <linearGradient id="panel-cc" x1="0" y1="0" x2="0" y2="300">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#101c33"/>
+    </linearGradient>
+    <linearGradient id="edge-cc" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="45%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#475569"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-900 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sheen-cc" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="95.49" y1="0" x2="804.51" y2="0">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="26%" stop-color="#cbd5e1"/>
+      <stop offset="54%" stop-color="#2563eb"/>
+      <stop offset="80%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#475569"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-709.02 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan-cc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-cc"><rect x="6" y="6" width="888" height="288" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .art  {
+      font-family: ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace;
+      font-size: 15.5px;
+      white-space: pre;
+      fill: url(#sheen-cc);
+      opacity: 0;
+      animation: rowIn .5s cubic-bezier(.2,.7,.3,1) both;
+    }
+    .cur  { fill: #cbd5e1; animation: curBlink 1.05s steps(1, end) infinite; }
+    .scan { animation: scan 4.6s cubic-bezier(.4,0,.6,1) infinite; }
+    @keyframes rowIn { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes curBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(280px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .art { fill: #94a3b8; animation: none; opacity: 1; }
+      .cur, .scan { animation: none; }
+      .scan { opacity: 0; }
+    }
+  </style>
+  <rect x="6" y="6" width="888" height="288" rx="16" fill="url(#panel-cc)" stroke="url(#edge-cc)" stroke-width="1.6"/>
+  <g clip-path="url(#clip-cc)">
+    <rect class="scan" x="6" y="0" width="888" height="44" fill="url(#scan-cc)"/>
+  </g>
+  <g text-anchor="middle">
+    <text class="art" x="450" y="52.0" xml:space="preserve" style="animation-delay:0.00s">┌─[  contato  ]──────────────────────────────────────────────────────────────┐</text>
+    <text class="art" x="450" y="68.6" xml:space="preserve" style="animation-delay:0.05s">│                                                                            │</text>
+    <text class="art" x="450" y="85.2" xml:space="preserve" style="animation-delay:0.10s">│  &gt; contato --list                                                          │</text>
+    <text class="art" x="450" y="101.8" xml:space="preserve" style="animation-delay:0.15s">│                                                                            │</text>
+    <text class="art" x="450" y="118.4" xml:space="preserve" style="animation-delay:0.20s">│  github    .  github.com/HyperTechDevelopment                              │</text>
+    <text class="art" x="450" y="135.0" xml:space="preserve" style="animation-delay:0.25s">│  linkedin  .  linkedin.com/in/marcos-gabriel-dev-fullstack                 │</text>
+    <text class="art" x="450" y="151.6" xml:space="preserve" style="animation-delay:0.30s">│  e-mail    .  marcosdeveloper.ti@gmail.com                                 │</text>
+    <text class="art" x="450" y="168.2" xml:space="preserve" style="animation-delay:0.35s">│  status    .  aberto a freelas, colaborações e conversas sobre             │</text>
+    <text class="art" x="450" y="184.8" xml:space="preserve" style="animation-delay:0.40s">│               engenharia de software e arquitetura                         │</text>
+    <text class="art" x="450" y="201.4" xml:space="preserve" style="animation-delay:0.45s">│                                                                            │</text>
+    <text class="art" x="450" y="218.0" xml:space="preserve" style="animation-delay:0.50s">└  # ascii · contato                                              [ pt-BR ]  ┘</text>
+  </g>
+  <rect class="cur" x="122.76" y="71.6" width="6.82" height="3.6" rx="1.6"/>
+</svg>
