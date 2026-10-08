@@ -28,7 +28,9 @@ No meu ecossistema principal, trabalho com **Python (Django, Flask, PyQt5)** no 
 
 ---
 
-<h2 id="stack" align="center">🛠 Stack</h2>
+<h2 id="stack" align="center">
+  <img src="./assets/section-stack.svg" width="900" alt="Stack — banner em arte ASCII" />
+</h2>
 
 <img width="3064" height="1376" alt="Stacks" src="https://github.com/user-attachments/assets/ae38c5c3-a9ed-4ece-a488-f821a0dd7dd3" />
 
