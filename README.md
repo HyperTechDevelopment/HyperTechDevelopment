@@ -45,7 +45,7 @@ No meu ecossistema principal, trabalho com **Python (Django, Flask, PyQt5)** no 
 | :-- | :-- | :-- |
 | [**Sol-Mode**](https://github.com/HyperTechDevelopment/Sol-Mode) | Método de trabalho para agentes de IA, do pedido ao resultado verificado | ![Open Source](https://img.shields.io/badge/Open_Source-2ea44f?style=flat-square&logo=opensourceinitiative&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) |
 | [**MakeYourPoster**](https://github.com/HyperTechDevelopment/MakeYourPoster) | Editor de pôster com exportação em JPG, PNG e PDF | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| [**Dashboard-CLP**](https://github.com/HyperTechDevelopment/Dashboard-CLP) | Dashboard complementar ao sistema CLP | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [**My-Dev-Clock**](https://github.com/HyperTechDevelopment/My-dev-clock) | Relógio de terminal para Windows com timer, cronômetro e contagem regressiva | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
 | [**CLP-Controle-de-Lavagem-de-Placas**](https://github.com/HyperTechDevelopment/CLP-Controle-de-Lavagem-de-Placas) | Controle de lavagem de placas no setor industrial | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 ---
