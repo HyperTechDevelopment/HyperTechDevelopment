@@ -20,11 +20,11 @@
 
 **Oi, sou o Marcos Gabriel 👋**
 
-Sou desenvolvedor full stack focado em construir produtos que realmente rodam no dia a dia da operação seja uma aplicação web responsiva ou uma ferramenta desktop.
+Sou desenvolvedor full stack. Gosto de construir coisas que rodam no dia a dia da operação, seja uma aplicação web responsiva ou uma ferramenta desktop.
 
-No meu ecossistema principal, trabalho com **Python (Django, Flask, PyQt5)** no backend e desktop, além de **React, Vue.js, HTML5** e modelagem avançada em **SQL**. Hoje, venho expandindo e praticando ativamente meu repertório com **C#** e **TypeScript**.
+A maior parte do meu trabalho é em Python (Django, Flask, PyQt5), no backend e em aplicações desktop, com React, Vue.js e HTML5 no frontend e modelagem de banco em SQL. Hoje venho estudando C# e TypeScript.
 
-💬 Aberto a freelas, colaborações e troca de ideias sobre engenharia de software e arquitetura. Fique à vontade para me chamar!
+Aberto a freelas, colaborações e conversas sobre engenharia de software e arquitetura. É só me chamar.
 
 ---
 
