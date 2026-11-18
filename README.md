@@ -18,13 +18,9 @@
   <img src="./assets/section-sobre.svg" width="900" alt="Sobre — banner em arte ASCII" />
 </h2>
 
-**Oi, sou o Marcos Gabriel 👋**
+**Sou Marcos Gabriel, dev full-stack.**
 
-Sou desenvolvedor full stack. Gosto de construir coisas que rodam no dia a dia da operação, seja uma aplicação web responsiva ou uma ferramenta desktop.
-
-A maior parte do meu trabalho é em Python (Django, Flask, PyQt5), no backend e em aplicações desktop, com React, Vue.js e HTML5 no frontend e modelagem de banco em SQL. Hoje venho estudando C# e TypeScript.
-
-Aberto a freelas, colaborações e conversas sobre engenharia de software e arquitetura. É só me chamar.
+Meu trabalho principal é TypeScript e Python: IDE de banco de dados com IA (DBLion), apps web com exportação real (PixPlaca, MakeYourPoster) e ferramentas de terminal em Rust (my-dev-clock). Backend com testes, frontend que o usuário final usa.
 
 ---
 
@@ -32,7 +28,10 @@ Aberto a freelas, colaborações e conversas sobre engenharia de software e arqu
   <img src="./assets/section-stack.svg" width="900" alt="Stack — banner em arte ASCII" />
 </h2>
 
-<img width="3064" height="1376" alt="STACKS" src="https://github.com/user-attachments/assets/d5e9142a-be99-43f1-80d6-7b48f0485bb1" />
+**Frontend:** TypeScript · React · Electron · Tailwind · HTML5
+**Backend:** Python · Flask · Django · REST APIs
+**Banco de dados:** PostgreSQL · MySQL · SQLite · MongoDB · Redis
+**Ferramentas:** Rust · Git · GitHub Actions · VS Code
 
 
 ---
@@ -41,14 +40,47 @@ Aberto a freelas, colaborações e conversas sobre engenharia de software e arqu
   <img src="./assets/section-projetos.svg" width="900" alt="Projetos — banner em arte ASCII" />
 </h2>
 
-| Projeto | O que faz | Stack |
-| :-- | :-- | :-- |
-| [**Pipeline-for-AI**](https://github.com/HyperTechDevelopment/Pipeline-for-AI) | Catálogo de 4 pipelines de skills (feature, debug do agente, interface e entrega): cada estágio com entrega e critério de saída | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| [**DBLion**](https://github.com/HyperTechDevelopment/DBLion) | IDE de banco de dados multi-engine com copiloto de IA: a IA propõe o SQL, você revisa e executa | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) |
-| [**Sol-Mode**](https://github.com/HyperTechDevelopment/Sol-Mode) | Método de trabalho para agentes de IA, do pedido ao resultado verificado | ![Open Source](https://img.shields.io/badge/Open_Source-2ea44f?style=flat-square&logo=opensourceinitiative&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) |
-| [**MakeYourPoster**](https://github.com/HyperTechDevelopment/MakeYourPoster) | Editor de pôster com exportação em JPG, PNG e PDF | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| [**My-Dev-Clock**](https://github.com/HyperTechDevelopment/My-dev-clock) | Relógio de terminal para Windows com timer, cronômetro e contagem regressiva | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
-| [**paranoid-agent**](https://github.com/HyperTechDevelopment/paranoid-agent) | Skill de sweep paranoico com servidor MCP: forense de 10 commits, caça a segredos vazados, auto-ataque contido e relatório HTML 3D com nota 0–100 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
+### [DBLion](https://github.com/HyperTechDevelopment/DBLion) · [demo](https://hypertechdevelopment.github.io/DBLion-Page/)
+
+IDE de banco de dados com copiloto de IA. A IA escreve o SQL, você confere e roda. Vem com read-only ligado.
+
+[![DBLion](./assets/demo-dblion.png)](https://hypertechdevelopment.github.io/DBLion-Page/)
+
+### [pixplaca](https://github.com/HyperTechDevelopment/pixplaca) · [demo](https://hypertechdevelopment.github.io/pixplaca/)
+
+Gerador de placas de QR Code Pix com 30 designs e download em PNG ou PDF.
+
+[![pixplaca](./assets/demo-pixplaca.png)](https://hypertechdevelopment.github.io/pixplaca/)
+
+### [my-dev-clock](https://github.com/HyperTechDevelopment/My-dev-clock) · [demo](https://hypertechdevelopment.github.io/my-dev-clock-page/)
+
+Relógio de terminal para Windows em Rust, com timer, cronômetro e contagem regressiva.
+
+[![my-dev-clock](./assets/demo-my-dev-clock.png)](https://hypertechdevelopment.github.io/my-dev-clock-page/)
+
+### [paranoid-agent](https://github.com/HyperTechDevelopment/paranoid-agent)
+
+Skill de segurança com servidor MCP. Varre os últimos 10 commits, procura segredo vazado, roda um ataque contido contra o próprio projeto e fecha com um relatório HTML e nota de 0 a 100. Sem demo pública; o print é do template de relatório.
+
+[![paranoid-agent](./assets/demo-paranoid-agent.png)](https://github.com/HyperTechDevelopment/paranoid-agent)
+
+### [Sol-Mode](https://github.com/HyperTechDevelopment/Sol-Mode) · [demo](https://hypertechdevelopment.github.io/sol-skill/)
+
+Método de trabalho para agentes de IA, do pedido até o resultado verificado.
+
+[![Sol-Mode](./assets/demo-sol-mode.png)](https://hypertechdevelopment.github.io/sol-skill/)
+
+### [Pipeline-for-AI](https://github.com/HyperTechDevelopment/Pipeline-for-AI) · [demo](https://hypertechdevelopment.github.io/Pipeline-for-AI/)
+
+Catálogo de pipelines de skills para feature, debug de agente, interface e entrega. Cada estágio tem entrega e critério de saída definidos.
+
+[![Pipeline-for-AI](./assets/demo-pipeline-for-ai.png)](https://hypertechdevelopment.github.io/Pipeline-for-AI/)
+
+### [MakeYourPoster](https://github.com/HyperTechDevelopment/MakeYourPoster) · [demo](https://hypertechdevelopment.github.io/MakeYourPoster/)
+
+Editor de pôster no navegador, com exportação em JPG, PNG e PDF.
+
+[![MakeYourPoster](./assets/demo-makeyourposter.png)](https://hypertechdevelopment.github.io/MakeYourPoster/)
 
 ---
 
@@ -57,7 +89,7 @@ Aberto a freelas, colaborações e conversas sobre engenharia de software e arqu
 </h2>
 
 <p align="center">
-  <img src="./assets/contact-card.svg" width="900" alt="Cartão de contato em arte ASCII: GitHub, LinkedIn, e-mail e status" />
+  <img src="./assets/contact-card.svg" width="900" alt="Cartão de contato em arte ASCII: GitHub, LinkedIn e e-mail" />
 </p>
 
 <p align="center">
@@ -69,18 +101,9 @@ Aberto a freelas, colaborações e conversas sobre engenharia de software e arqu
 ---
 
 <p align="center">
-  <img src="./assets/profile-views.svg" width="900" alt="Profile views — painel ASCII animado em cinza e azul escuro" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=HyperTechDevelopment&style=flat-square&color=2563eb" alt="Visualizações do perfil" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/github/followers/HyperTechDevelopment?label=followers&style=flat-square&color=64748b&labelColor=0e1a2e&logo=github&logoColor=cbd5e1" alt="Seguidores" />
   <img src="https://img.shields.io/github/stars/HyperTechDevelopment?label=stars&style=flat-square&color=2563eb&labelColor=0e1a2e&logo=starship&logoColor=94a3b8" alt="Estrelas" />
   <img src="https://img.shields.io/github/last-commit/HyperTechDevelopment/HyperTechDevelopment?label=last%20commit&style=flat-square&color=334155&labelColor=0b1220&logo=git&logoColor=cbd5e1" alt="Último commit" />
-  <img src="https://img.shields.io/badge/status-online-1d4ed8?style=flat-square&labelColor=0e1a2e&logo=statuspage&logoColor=94a3b8" alt="Status" />
 </p>
 
 <p align="center">
